@@ -105,10 +105,6 @@
 
 @media (min-width: 720px) {
 
-    .meta-container {
-        margin-left: 9em;
-    }
-
     .logo-container {
         height: 150px;
     }
@@ -117,6 +113,15 @@
         width: 600px;
     }
 }
+
+@media (min-width: 900px) {
+
+    .meta-container {
+        margin-left: 9em;    
+    }
+
+}
+
 
 .features-wrapper {
     position: relative;
