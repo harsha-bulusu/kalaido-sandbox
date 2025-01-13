@@ -40,6 +40,7 @@ const StarField = () => {
   }, []);
 
   useFrame(() => {
+    if (pointsRef.current.children.length > 0) { 
     const positionAttribute = pointsRef.current.children[0].geometry.attributes.position;
     
     for (let i = 0; i < starCount; i++) {
@@ -51,6 +52,7 @@ const StarField = () => {
     }
 
     positionAttribute.needsUpdate = true;
+  }
   });
 
   return (
