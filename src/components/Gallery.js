@@ -73,7 +73,7 @@ export default function ScrollAnimation () {
 
   return <div className="w-full p-5 md:p-10">
     <div className="p-3 sm:p-2">
-        <div className="gap-1 sm:columns-2 md:columns-3 lg:columns-4">
+        <div className="sm:columns-2 md:columns-3 lg:columns-4">
         {
           loadedImages.map((imageUrl, index) => <div key={index} className="elem">
             <img src={imageUrl} alt={`image-${index}`}/>

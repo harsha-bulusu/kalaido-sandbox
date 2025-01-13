@@ -85,9 +85,8 @@ useEffect(() => {
         </div>
         <div className='main-container'>
           <div className='meta-container'>
-            <div className='title-container'>
-              <span className='logo-container'><img src='logo.png'/></span>
-              <span className='title'>Kalaido.ai</span>
+            <div className='logo-container'>
+              <img src='https://kalaido.ai/_next/static/media/kalaido_logo_latest.efc3e3f2.png'></img>
             </div>
             <div className='description-container'>
               <p><span style={{fontWeight: 'bold'}}>Fractal’s</span> diffusion model for multi-language text-to-image generation</p>

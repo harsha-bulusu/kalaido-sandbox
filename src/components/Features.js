@@ -49,24 +49,33 @@ export default function Features() {
                 <div className="feature-number">
                     01
                 </div>
+                <div className="feature-title">
+                    Empower Your Creativity
+                </div>
                 <div className="feature-description">
-                    Text to Image
+                    Effortlessly generate stunning visuals with AI, tailored to your style and campaign needs.
                 </div>
             </div>
             <div className="feature">
                 <div className="feature-number">
                     02
                 </div>
+                <div className="feature-title">
+                    All-in-One Toolkit
+                </div>
                 <div className="feature-description">
-                    Built in Prompt Enhancer
+                    Create, Edit, Enhance, and Upscale images with powerful features designed for content creators.
                 </div>
             </div>
             <div className="feature">
                 <div className="feature-number">
                     03
                 </div>
+                <div className="feature-title">
+                    Time-Saving & Intuitive
+                </div>
                 <div className="feature-description">
-                    Free to Use
+                    Simplified workflows with instant results, ensuring high-quality outputs without hassle.
                 </div>
             </div>
         </div>
